@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.nav {
+    
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+       width: 100px;
+}
+
+
+.logo {
+       background-image: url(Amazon-Logo-Font.webp);
+       
+       height: 50px;
+       width: 100%;
+       background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+
+}
+/* box2 */
+/* .ad-address{
+    /* display: flex;
+    align-items: center;
+border:1.5px solid transparent;
+}
+.ad-address:hover {
+    /* border: 1.5px solid white; */ 
+/* }  */
+/* box2 */
+.ad-f{
+    color: #cccccc;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+.ad-sec {
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+   
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+
+}
+
+/* box 3 */
+.nav-search {
+    border:none;
+    
+   
+    display: flex;
+    margin-left: 3px;
+    height: 40px;
+    width: 620px;
+    border-radius:4px  ;
+  
+    font-size: 15px;
+   
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-icon {
+   
+    border-radius: 0 4px 4px 0;
+    height: 40px;
+    width:45px;
+    background-color:rgb(254, 189, 69);
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color:#0f1111 ;
+   
+
+}
+.search-input{
+    font-size: 1rem;
+    width: 620px;
+    border:none;
+    width: 100%;
+   
+
+}
+.search-select {
+    border:none;
+   
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-radius: 4px 0 0 4px;
+    
+
+}
+
+
+/* box 4 */
+
+ spane {
+    font-size: 0.7rem;
+
+}
+.sec {
+    font-size: 0.85rem;
+    font-weight:700 ;
+}
+
+/* box6 */
+.nav-cart i{
+font-size: 30px;
+}
+.nav-cart{
+    font-size:0.85rem ;
+    font-weight: 700;
+}
+
+/* panel */
+.panel {
+    
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+
+}
+.p p{
+display: inline;
+margin-left: 15px;
+}
+    
+    
+   
+
+.p{
+
+    width: 70%;
+    font-size: 0.85rem;
+    
+}
+
+
+.panel-deals {
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+.hero {
+    background-image: url(hero.jpg);
+    background-size: cover;
+    width:100%;
+    height:350px ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero-sms{
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+/* shop  */
+
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content:space-evenly ;
+    background-color: #e4f0ed;
+}
+/* .shop2{
+    display: flex;
+    justify-content:space-evenly ;
+    background-color: #e4f0ed;
+} */
+
+ .box{
+
+    height:400px;
+    width: 23%;
+    background-color: white;
+    
+    
+    
+
+}
+
+img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 310px;
+    width: 300px;
+
+}
+
+.shop3{
+    display: flex;
+
+    border: 23px solid #e4f0ed;
+    height: 350px;
+    width: 100%;
+    background-color:white ;
+}
+
+.boc1 {
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    
+    background-color: white;
+}
+/* shop3 */
+
+.shop4{
+   
+    height: 270px;
+    width: 300px;
+}
+.shop5{
+    display: flex;
+
+    border: 23px solid #e4f0ed;
+    height: 350px;
+    width: 100%;
+    background-color:white ;
+}
+
+/* sing in */
+.sin{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.s{
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+.si {
+    width: 300px;
+    height: 38px;
+    background-color: rgb(249, 183, 61);
+    border-color: 1.5px solid orange;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 5px;
+    border: 1.5px solid transparent;
+}
+.new{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.sny{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 200px;
+    border: 0.75px solid black;
+}
+
+/* back to top  */
+
+.top {
+    
+    height: 40px;
+    background-color: #3b4f63;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+}
+
+/* description */
+
+   ul h2{
+    margin-top: 50px;
+   } 
+ul p{
+    display: block;
+    margin-top: 10px;
+}
+.description {
+    
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 500px;
+    background-color:#222f3d;
+    color: rgb(194, 193, 193);
+    
+    
+}
+.border2 {
+    border: 0.5px transparent;
+}
+.border2:hover {
+    border-bottom:  0.5px solid white;;
+
+}
+
+/* footer*/
+
+.footer {
+    background-image: url("Amazon-Logo-Font.webp");
+    background-blend-mode:color-dodge;
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #222f3d;
+    border-top: 0.5px solid rgb(135, 135, 135);
+    
+} 
+.logo3 {
+    height: 80px;
+    width: 200px;
+
+}
+.select {
+    height: 30px;
+    width:150px;
+    color: #cccccc;
+    background-color: #222f3d;
+
+}
+.fa-solid{
+    color: #cccccc;
+    font-size: 1.75rem;
+}
+.footer2{
+    
+    color: rgb(214, 209, 209);
+    background-color: #191c1c;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.7rem;
+}
+.page {
+    padding-top:40px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.copy{
+    font-size: 0.7rem;
+    text-align: center;
+}
